@@ -1,0 +1,26 @@
+/*
+Theme Name: greylinestation
+Theme URI: http://wordpress.org/
+Description: Theme for GreyLine Station in Lexington Kentucky
+Author: Austin
+Author URI: https: //www.austin-gorman.com
+*/
+
+@import url("bootstrap/css/bootstrap.css");
+/* @import url("bootstrap/css/bootstrap-responsive.css"); */
+
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: #2e2d3c;
+}
+
+.navbar {
+    min-height: 125px;
+}
+
+@media (min-width: 992px) {
+    .navbar-collapse.collapse {
+        display: flex !important;
+    }
+}
